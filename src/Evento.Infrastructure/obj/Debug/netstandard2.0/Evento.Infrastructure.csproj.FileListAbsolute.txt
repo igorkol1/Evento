@@ -1,0 +1,12 @@
+/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Infrastructure/bin/Debug/netstandard2.0/Evento.Infrastructure.deps.json
+/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Infrastructure/bin/Debug/netstandard2.0/Evento.Infrastructure.dll
+/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Infrastructure/bin/Debug/netstandard2.0/Evento.Infrastructure.pdb
+/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Infrastructure/bin/Debug/netstandard2.0/Evento.Core.dll
+/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Infrastructure/bin/Debug/netstandard2.0/Evento.Core.pdb
+/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Infrastructure/obj/Debug/netstandard2.0/Evento.Infrastructure.csprojAssemblyReference.cache
+/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Infrastructure/obj/Debug/netstandard2.0/Evento.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Infrastructure/obj/Debug/netstandard2.0/Evento.Infrastructure.AssemblyInfoInputs.cache
+/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Infrastructure/obj/Debug/netstandard2.0/Evento.Infrastructure.AssemblyInfo.cs
+/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Infrastructure/obj/Debug/netstandard2.0/Evento.Infrastructure.csproj.CopyComplete
+/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Infrastructure/obj/Debug/netstandard2.0/Evento.Infrastructure.dll
+/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Infrastructure/obj/Debug/netstandard2.0/Evento.Infrastructure.pdb
