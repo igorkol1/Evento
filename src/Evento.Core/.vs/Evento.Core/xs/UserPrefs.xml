@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Repositories/IUserRepository.cs">
+    <Files>
+      <File FileName="Class1.cs" Line="1" Column="1" />
+      <File FileName="Domain/Entity.cs" Line="10" Column="33" />
+      <File FileName="Domain/User.cs" Line="33" Column="1" />
+      <File FileName="Domain/Event.cs" Line="37" Column="27" />
+      <File FileName="Domain/Ticket.cs" Line="24" Column="1" />
+      <File FileName="Repositories/IEventRepository.cs" Line="12" Column="1" />
+      <File FileName="Repositories/IUserRepository.cs" Line="20" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

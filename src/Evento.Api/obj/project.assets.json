@@ -4438,29 +4438,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
-      },
-      "Evento.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Evento.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Evento.Core.dll": {}
-        }
-      },
-      "Evento.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Evento.Core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Evento.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Evento.Infrastructure.dll": {}
-        }
       }
     }
   },
@@ -5384,7 +5361,6 @@
       "sha512": "ex8MZwgoyqHim1L6/65FnfjdSMtSKSuSU3DVoiCADZACc05T7f8uRB7SnDIP5LPQKLUBLilfNkd1p14RLyfdQA==",
       "type": "package",
       "path": "microsoft.aspnetcore.razor.design/2.2.0",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5767,7 +5743,6 @@
       "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         "ThirdPartyNotices.rtf",
@@ -6005,7 +5980,6 @@
       "sha512": "wn1ULjQbFadRosiNJE4B65iR5eYL3FkMezH4Tyv8EmdmN5XfCTzIgkk1mQJ1Zcb61Kb3qyZMeGidanwR7h/gug==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.tools/2.2.0",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -12085,21 +12059,10 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
-    },
-    "Evento.Core/1.0.0": {
-      "type": "project",
-      "path": "../Evento.Core/Evento.Core.csproj",
-      "msbuildProject": "../Evento.Core/Evento.Core.csproj"
-    },
-    "Evento.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../Evento.Infrastructure/Evento.Infrastructure.csproj",
-      "msbuildProject": "../Evento.Infrastructure/Evento.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Evento.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0"
@@ -12116,13 +12079,13 @@
       "projectName": "Evento.Api",
       "projectPath": "/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Api/Evento.Api.csproj",
       "packagesPath": "/Users/igorkolodziejczyk/.nuget/packages/",
-      "outputPath": "/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Api/obj/",
+      "outputPath": "/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Api/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/igorkolodziejczyk/.nuget/NuGet/NuGet.Config"
+        "/Users/igorkolodziejczyk/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -12132,11 +12095,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {
-            "/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Infrastructure/Evento.Infrastructure.csproj": {
-              "projectPath": "/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Infrastructure/Evento.Infrastructure.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -12151,8 +12110,7 @@
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.2.0, )",
-            "autoReferenced": true
+            "version": "[2.2.0, )"
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",

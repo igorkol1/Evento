@@ -189,13 +189,13 @@
       "projectName": "Evento.Core",
       "projectPath": "/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Core/Evento.Core.csproj",
       "packagesPath": "/Users/igorkolodziejczyk/.nuget/packages/",
-      "outputPath": "/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Core/obj/",
+      "outputPath": "/Users/igorkolodziejczyk/Projects/Evento/src/Evento.Core/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/igorkolodziejczyk/.nuget/NuGet/NuGet.Config"
+        "/Users/igorkolodziejczyk/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
