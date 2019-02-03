@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Evento.Core.Domain;
 using Evento.Core.Repositories;
@@ -8,38 +9,46 @@ namespace Evento.Infrastructure.Repositories
 {
     public class EventRepository:IEventRepository
     {
-        public EventRepository()
+
+        private static readonly ISet<Event> _events = new HashSet<Event>();
+
+        public async Task<Event> GetAsync(Guid id)
         {
+            return await Task.FromResult(_events.SingleOrDefault(x => x.Id == id));
         }
 
-        public Task AddAsync(Event @event)
+        public async Task<Event> GetAsync(string name)
         {
-            throw new NotImplementedException();
+            return await Task.FromResult(_events.SingleOrDefault(x => x.Name.ToLower() == name));
         }
 
-        public Task<IEnumerable<Event>> BrowseAsync(string name = "")
+        public async Task<IEnumerable<Event>> BrowseAsync(string name = "")
         {
-            throw new NotImplementedException();
+            var events = _events.AsEnumerable();
+            if (!string.IsNullOrWhiteSpace(name))
+            {
+                events = events.Where(x => x.Name.ToLowerInvariant()
+                                                .Contains(name.ToLowerInvariant())); 
+            }
+            return await Task.FromResult(events);
         }
 
-        public Task DeleteAsync(Event @event)
+        public async Task AddAsync(Event @event)
         {
-            throw new NotImplementedException();
+            _events.Add(@event);
+            await Task.CompletedTask;
         }
 
-        public Task<Event> GetAsync(Guid id)
+        public async Task UpdateAsync(Event @event)
         {
-            throw new NotImplementedException();
+            await Task.CompletedTask;
         }
 
-        public Task<Event> GetAsync(string name)
+        public async Task DeleteAsync(Event @event)
         {
-            throw new NotImplementedException();
+            _events.Remove(@event);
+            await Task.CompletedTask;
         }
 
-        public Task UpdateAsync(Event @event)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
